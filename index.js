@@ -6,5 +6,5 @@ app.get("/", (req, res) => {
 })
 
 app.listen(8050, () => {
-  console.log("Server has started on localhost:8050")
+  console.log("Server is running on localhost:8050")
 })
