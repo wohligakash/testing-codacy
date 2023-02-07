@@ -1,4 +1,10 @@
-var a = 5;
-let b = 5;
-const c = a + b;
-console.log(`Addition is ${c}`)
+const express = require("express")
+app.use(express)
+
+app.get("/", (req, res) => {
+  console.log("Hello world")
+})
+
+app.listen(8050, () => {
+  console.log("Server has started on localhost:8050")
+})
